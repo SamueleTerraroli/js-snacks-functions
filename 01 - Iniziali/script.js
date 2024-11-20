@@ -4,9 +4,21 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+const firstLetter = (array) =>{
+    const newArray=[]
+    for (i=0; i<array.length; i++){
+        newArray.push(array[i].charAt(0));
+        
+    }
+    return newArray
+}
+
 
 
 // Invoca la funzione qui e stampa il risultato in console
+
+console.log(firstLetter(names));
+
 
 
 
